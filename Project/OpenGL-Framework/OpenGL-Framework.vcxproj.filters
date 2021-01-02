@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d0589bdb-f7fb-4a56-9291-079992bb522a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{fb81744e-7699-4dca-bb83-095dc4ffe8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{ebcce5bd-6b53-4c1c-8a3d-bfbe8bb08414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{c8779ed7-a6da-4655-9e53-4fe08baa87e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{9ded45f0-0973-48ac-b4df-3c6dfdd48264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{52284d39-30ed-4bb2-94c3-17cdbe3e4d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Engine.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Log.hpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\OPENGLPCH.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Renderer.hpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mesh.hpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shader.hpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\Shaders\Simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resource\Shaders\Simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
